@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: auto !important;
+}
+
+.no-overflow {
+  overflow: hidden !important;
+}
+
+.color-invalid-input fieldset {
+  border: 1px solid #c91d12;
+}
+
+.theme--dark.v-footer {
+  background-color: #272727 !important;
+}
+
+.icons {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.icon-distance {
+  padding-right: 5% !important;
+}
+
+.padding-margion-zero {
+  padding: 0;
+  margin: 0;
+}
+
+.theme--dark.v-toolbar.v-sheet {
+  background-color: #312d4b;
+}
+
+.widthBaloon {
+  width: 6rem;
+  align-items: center;
+  justify-content: center;
+}
